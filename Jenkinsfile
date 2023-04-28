@@ -18,7 +18,12 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'docker build -t $DOCKER_IMAGE .'
+        script{
+        def dockerfile = 'Dockerfile"
+        def dockerImage = docker.build("$DOCKER_REGISTRY/$DOCKER_IMAGE", "-f $dockerfile .")
+        }
+       
+      }
       }
     }
     stage('Push') {
