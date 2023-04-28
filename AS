@@ -1,0 +1,365 @@
+[33ma83995d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update Jenkinsfile
+[33mbcf6916[m Update Jenkinsfile
+[33m431f2d6[m Update Jenkinsfile
+[33mbd37d29[m Create Jenkinsfile
+[33m53abbf5[m Create jenkinsfile
+[33md3a5e48[m Update README.md
+[33m59cb4e3[m build(deps): bump handlebars from 4.0.11 to 4.5.3 (#135)
+[33mfa92ca3[m docs(README): link to seed and models docs from README
+[33mc358873[m build(deps): bump mixin-deep from 1.3.1 to 1.3.2 (#131)
+[33m6c80832[m Fix: Update nodemon to remove vulnerable event-stream package (#129)
+[33m318684e[m Revert "installed event-stream 4.0.1 (#127)" (#128)
+[33mfbe3d8f[m installed event-stream 4.0.1 (#127)
+[33me1b1fc5[m fix(deps): Dependencie audit fix (#123)
+[33m4ff1b3f[m feat(modal): enable Swift and Kotlin variant
+[33m3d47cc2[m build: Upgrade to circleci v2 (#120)
+[33mff6ffac[m Fix link to hosted version.
+[33m8a2b7dc[m feat: Update to the new SDK
+[33m1baef21[m fix(empty-states): properly render empty content warning and add e2e test config
+[33m005c801[m Feat/no content (#112)
+[33m1d513b9[m feat: Add empty content module (#111)
+[33mf2e5310[m build(npm): upgrade dependencies
+[33m431bf17[m fix(lessons): lessons in draft on CDA now throw a 404 instead of a 500
+[33mba2eead[m feat(server): display a url when server starts to make it clickable
+[33m6b78189[m fix(locales): properly detect & set fallback locale
+[33m0bb53d8[m refactor(contentful): only include till the level we actually need
+[33m82a9a48[m fix(courses): don't break app on draft courses without lessons
+[33mfb979fc[m fix(entry-state): ignore lessons on course overview and attach state to courses by category
+[33mcdbfa96[m fix(errors): only remove stack from error in production
+[33mc36d98e[m refactor(error-page): remove unused mixin
+[33m165326b[m fix(404): fix translation for missing route error
+[33mbeb6900[m fix(api-selection): fall back to delivery api for invalid apis
+[33m5e55d7b[m feat(errors): new error page copy
+[33m3c9089a[m feat(errors): dynamic fallback locale
+[33m92fcbdf[m feat(errors): add reset credentials button to error page
+[33m8c20dfb[m fix(errors): detect a missing highlighted course
+[33m4cdfea0[m fix(errors): dedicated 404 errors
+[33m9ca77e4[m fix(errors): properly output API error information
+[33m54d1879[m fix(errors): set correct html title for error page
+[33m8d902da[m fix(errors): remove breadcrumb from error page
+[33m94cadb2[m Revert "fix(errors): show stack trace on prod"
+[33m67dca92[m refactor(tracking): inject space id via templating instead of using cookies
+[33m46074b5[m feat(query-params): proper handling in case of invalid credentials
+[33mff305e7[m fix(entry-state): detect draft and pending changes at the same time
+[33m8abd754[m fixup! fixup! fix(errors): properly output API error information
+[33mfd6de6e[m fixup! fix(errors): properly output API error information
+[33m9ee29c8[m Update README.md
+[33m9783eda[m feat(editorial-features): switch logic to allow disabling via url params
+[33mbccdb86[m test(integration): fix path to match new content
+[33m5b05210[m fix(errors): add hint to 500 errors and fix bullet points
+[33m4b6ec8c[m fix(errors): detect non-existing lessons
+[33m699894b[m fix(errors): show stack trace on prod
+[33m2eb85dc[m fix(modal): change links to link to contentful.com
+[33maf41f06[m build(heroku): remove postbuild script
+[33m8082348[m refactor(tracking): conditional pug include instead of injection (#96)
+[33m7a8376c[m refactor(contentful): Improve assert function (#93)
+[33m901d616[m fix(assets): upgrade assets to latest versions (#99)
+[33m2026dbe[m style(code-snippet): no need for module id in the markup (#97)
+[33mfe560c8[m feat(modal): add java version of tea to about modal
+[33mf73f793[m Update README.md
+[33mbde8d4e[m fix(settings): add missing space before link
+[33mfe86b04[m chore(gitignore): switch to gitignore.io version
+[33mbb564b6[m fix(about): only attach non-default credentials
+[33m1621369[m test(staging): allow setting API host via env variable
+[33m2706e31[m feat(about): attach settings to links in about modal
+[33m67a7359[m fix(assets): upgrade assets to latest versions
+[33m67d77a5[m Update courses.js (#90)
+[33m25e7b2d[m style(comma): add comma to join to make it more explicit
+[33mc1d4a88[m fix(module-copy): emphasized variant now uses wrapper
+[33m3a6886e[m test(e2e): add dev script which uses interactive cypress
+[33m012492c[m fix(settings): use correct label for access token inputs
+[33m67fcda3[m fix(settings): add required attribute to settings form
+[33mf380679[m Update README.md (#85)
+[33m32e7f9c[m docs(README): add build status badge
+[33m8c49cf0[m chore: update assets
+[33m60a94f0[m test(integration): adjust for new content and settings
+[33me5a8828[m test(e2e): pass language to tests
+[33mac164d9[m chore(assets): update to latest assets
+[33me94032c[m Merge branch 'production' into master
+[33m4ceb269[m fix: Fix Mario
+[33mfca21ba[m fix: Add edit in web app link for course list
+[33m8bfdf3a[m chore: Fix modal title
+[33m9e8796a[m chore: Fix common setup section
+[33mc786031[m refactor: Refactor draft check
+[33m1d8bf9c[m fix: strip milliseconds from date
+[33me3509cc[m chore: return when the paren entry is draft
+[33m50da196[m chore: Add comments
+[33ma5c0761[m feat: Add new diffing
+[33mb5d69d7[m refactor: Improvements
+[33maf9c453[m test(e2e): run all specs, not only one specific
+[33med2e50c[m test(e2e): replace integrated tests with standalone repository
+[33m35d5752[m chore: Update README
+[33mb5a2e80[m feat: Minor fixes (#73)
+[33m81d5233[m Add instructions to run app as Docker container (#68)
+[33m4487b8e[m fix: fix cli link (#72)
+[33mb536c10[m fix:  no more duplicate error messges (#71)
+[33mffb9684[m chore: Improve error page (#66)
+[33m4ae6c82[m docs(README): minor adjustments
+[33me2af6c5[m docs(README): add linebreak
+[33m1cfd575[m Update README.md (#63)
+[33ma43c5aa[m new screenshot
+[33mdfd68e8[m fix(style): move GitHub link to the left
+[33m1cc8e62[m fix(i18n): adjust view on github link label
+[33mb73d733[m fix(links): link correct GH repository
+[33mb0a2e99[m Change modal text; add link to model's repo to localization files (#57)
+[33m8c6a063[m Add instructions to seed a space to readme (#61)
+[33m3a2f479[m Change readme url to http from https (#52)
+[33m28845db[m rename labels to use full api name
+[33m9178e76[m language fixes
+[33m152d589[m fix(style): update stylesheet and scripts file
+[33m173c44b[m fix(style): simplify header and fix mobile design
+[33m21b7a9d[m feat(controls): add help text to API dropdown
+[33m1406fae[m Split first paragraph into sections (#46)
+[33me772281[m fix: Fix Mario
+[33m1ef4d1c[m fix: Add edit in web app link for course list
+[33ma7a5b2a[m chore: Fix modal title
+[33mfbb7144[m chore: Fix common setup section
+[33m7b47485[m refactor: Refactor draft check
+[33m777a8d4[m fix: strip milliseconds from date
+[33m9135162[m chore: return when the paren entry is draft
+[33m6867659[m chore: Add comments
+[33m4344b6f[m feat: Add new diffing
+[33mfec1fa8[m refactor: Improvements
+[33me9e15b0[m test(e2e): run all specs, not only one specific
+[33md1b1d50[m test(e2e): replace integrated tests with standalone repository
+[33m761f18e[m chore: Update README
+[33maf575f3[m Production build (#75)
+[33m4273002[m Merge branch 'production' into master
+[33m55f3c4e[m Fix Cookie Max Age (#74)
+[33m9b55a8b[m fix: fix error display
+[33mb456500[m feat: Minor fixes (#73)
+[33mc944885[m Production deploy 16:00 (#70)
+[33mffc2df6[m Add instructions to run app as Docker container (#68)
+[33m9e07bf6[m fix: fix cli link (#72)
+[33m14ce69f[m fix:  no more duplicate error messges (#71)
+[33mc054f82[m Merge branch 'production' into master
+[33mf45c65c[m chore: Improve error page (#66)
+[33m3a78027[m chore(update): remove image rendering on lessons (#65)
+[33m9b277b0[m chore(typo): fix error message (#67)
+[33m9b76e5a[m Add translation for edit in the web app (#64)
+[33madf92b4[m fix(tracking): add link click tracking to snowplow
+[33m6f6cbc3[m docs(README): minor adjustments
+[33m3187b29[m docs(README): add linebreak
+[33m2218942[m feat(heroku): add app.json
+[33mdeac8b5[m Update README.md (#63)
+[33m5a20ed0[m new deployment (#59)
+[33me3db869[m new screenshot
+[33mb03af09[m fix(style): move GitHub link to the left
+[33m2409a8b[m fix(i18n): adjust view on github link label
+[33m1587b3a[m fix(links): link correct GH repository
+[33mc91c141[m Change modal text; add link to model's repo to localization files (#57)
+[33m6fe44b7[m Add instructions to seed a space to readme (#61)
+[33mf0d56d4[m Merge branch 'production' into master
+[33m9b0c628[m fix(analytics): use correct app-id
+[33m0e2ee2a[m fix(translations): do not break on vim temp files. This is dedicated to JP
+[33m0b1c913[m Retranslate advancedLabel
+[33m15c816f[m Change text on next lesson button (#54)
+[33me382104[m fix(cookies): fix variable naming and extend to two days maxAge
+[33me38137b[m tests(e2e): expect only 2 courses
+[33m8bff11d[m Change readme url to http from https (#52)
+[33m4b0503b[m Fix breadcrumb and add test for locales (#49)
+[33mae599cc[m Refactor entry state toggle (#48)
+[33mfc68385[m rename labels to use full api name
+[33ma0540d3[m language fixes
+[33m90b1b4c[m test(e2e): adjust tests and make them fail on CI
+[33m3076dae[m fix(style): update stylesheet and scripts file
+[33mbb177b6[m fix(style): simplify footer and fix mobile design
+[33m3cea4de[m fix(style): simplify header and fix mobile design
+[33m29f6502[m feat(controls): add help text to API dropdown
+[33m5be6c21[m Split first paragraph into sections (#46)
+[33ma59428c[m chore(localization): fix typo (#47)
+[33m194ae07[m Merge branch 'production' into master
+[33m52715ec[m Change text on next lesson button (#54)
+[33m0b509f2[m fix(cookies): fix variable naming and extend to two days maxAge
+[33mf3c145f[m tests(e2e): expect only 2 courses
+[33m07c7c4c[m Change readme url to http from https (#52)
+[33m67b5d09[m Fix breadcrumb and add test for locales (#49)
+[33m1515d09[m Refactor entry state toggle (#48)
+[33mb7aff59[m rename labels to use full api name
+[33mfd2650b[m language fixes
+[33m767a1e8[m test(e2e): adjust tests and make them fail on CI
+[33m13a49aa[m fix(style): update stylesheet and scripts file
+[33m7f5a99d[m fix(style): simplify footer and fix mobile design
+[33m9fb8c37[m fix(style): simplify header and fix mobile design
+[33m229a892[m feat(controls): add help text to API dropdown
+[33mda942ed[m Split first paragraph into sections (#46)
+[33md6e3689[m chore(localization): fix typo (#47)
+[33m072b22b[m Production (#44)
+[33m696fc0a[m Merge branch 'master' into production
+[33mf81d60b[m chore: Change credentials
+[33m20a1a09[m chore(localization): add localization for skill level tags (#43)
+[33mf6c1265[m fix: Fix courses ordering
+[33m93608ce[m Write new readme
+[33m761a585[m chore(contactUs): contact us now opens in a new tab (#42)
+[33maa769dc[m chore(github): replace links with real ones (#41)
+[33m0d7b489[m Hotfix/static text changes (#40)
+[33m81577c8[m Enhance Breadcrumbs (#39)
+[33m95bdb8a[m fix: clarify German translation🇩🇪
+[33m368cf77[m feat(modules): add image caption and shadow
+[33m14eb311[m chore(localization): move locales to i18n folder
+[33m475ec2f[m fix: Fix Editorial feature
+[33m79df6d1[m test: Fix integration test
+[33ma48fd1b[m fix: clarify German translation🇩🇪
+[33m1c1a352[m feat(modules): add image caption and shadow
+[33m0858b83[m chore(localization): move locales to i18n folder
+[33m1c36ea6[m fix: Fix Editorial feature
+[33md5ac23e[m test: Fix integration test
+[33m1320407[m fix(styling): do not capitalize breadcrumb
+[33m146c016[m feat(analytics): add analytics on deploy script (#32)
+[33m85d5e0f[m fix: fix application name
+[33mcf953aa[m fixup! fixup! fixup! feat: Add start npm script
+[33ma78a191[m fixup! fixup! feat: Add start npm script
+[33m41f947a[m fixup! feat: Add start npm script
+[33m68a8052[m feat(localization): add localization for static strings
+[33meaec09a[m test(e2e): fix twitter card test
+[33m751b8aa[m refactor(routes): remove unused categories route files
+[33m2575aa8[m fix(twitter-cards): use correct tw card meta value attribute
+[33mdcfd274[m feat(footer): add GitHub logo and link
+[33mf2f2a79[m test(rebase): adjust tests from rebase and glue them together
+[33m1e27165[m test(e2e): adjust tests to fit refactored version of the app
+[33mc7567ca[m ci(circle): add initial circle.yml
+[33mbd9e29b[m test(e2e): add end to end tests via cypress.io
+[33m85ea880[m feat: Add start npm script
+[33ma77d8fc[m feat: Add start npm script
+[33m9c2840a[m feat: Add helmet and force SSL
+[33m9ae9c54[m feat: Change cookie age to 24h
+[33m9f61d33[m fix: Adds `courses/categories` route
+[33mcdb0a07[m Make changes to code to improve readability
+[33ma110d84[m Add contact us link to footer
+[33m7ad2c1f[m refactor: Cleanup (#21)
+[33m730ce24[m chore: capitalise comments
+[33mb6ae3f9[m test: Add unit test (#20)
+[33mc2297d2[m refactor(assets): remove assets submodule and add them as static files
+[33mbc73f3e[m test(integration): test settings form and settings cookie
+[33m62129cc[m fix(dom): indent properly and add main element
+[33ma5a23b4[m test(integration): add rudimentary test for settings
+[33m4b6b355[m test(integration): fix course urls to make integration tests work again
+[33m9c5b0ea[m fix(sharing): proper og:url and add og:image:alt
+[33m490ec80[m fix(sharing): give context to title and use proper og:image
+[33m5ddccf2[m fix(settings): show correct space name and fix other small issues
+[33mbfd12a2[m docs(README): rudimentary infos for setup and deep links
+[33m2bbe27c[m feat(assets): get latest updates from assets repo
+[33mc35c898[m feat(imprint): add imprint
+[33mfb7755f[m feat(footer): link footer logo to contentful
+[33m837f45c[m fix(courses): fix copy :spaghetti:
+[33mfd52efd[m feat(entry-states): display entity state for editors
+[33m63ff3e0[m fix: Remove About link
+[33m46fd1f6[m fix: Fix category listing
+[33mf10406b[m refactor: change credentials
+[33m8549de7[m refactor: getCourse comments
+[33ma91e46d[m refactor: refactor home and about routes
+[33m1e94188[m refactor: refactor routes
+[33m8640483[m Update credentials for user-testing test
+[33ma548432[m fix: fix lessonImage
+[33me285543[m feat(about): add about this modal
+[33m593b050[m chore: change credentials
+[33m36af578[m fix(styling): proper logo
+[33m5333d26[m build(npm): remove unused serve-favicon dependency
+[33m456d0e6[m fix(cookies): all cookies now last for a year
+[33m219824b[m feat(styles): upgrade to latest assets
+[33m56f818d[m feat(favicons): add favicons for several platforms
+[33m240e008[m feat(editors): add editorial features aka the configurable edit link
+[33mbf50c66[m feat(settings): display connected space name
+[33m40f3d8e[m feat(globals): adjust header
+[33md7654bb[m test: add integration test
+[33m703a5e4[m chore: change Comments
+[33m2831fb7[m chore: Remove console log
+[33mf512254[m Revert credentials to master space
+[33m9ddc468[m fix: Make the cookie last for a year
+[33mc6d12b4[m fix: Fix New fields naming
+[33m418871c[m fix: Fix previw/delivery switch
+[33mf61c13d[m fix: Fix previw/delivery switch
+[33m3f16c45[m switch to public assets submodule
+[33m7856434[m refactor(assets): extract assets to their own repo
+[33m50aee89[m fix(styling): align all spacing to match Malin's desig
+[33mdb702ad[m build(npm): upgrade to new SDK major
+[33mbb1cdcc[m feat(controls): styled custom header dropdown with helptext and smart positioning (#13)
+[33m6c6d818[m fix(styling): adjust card heights and prepare header for new dropdowns
+[33m8e6171c[m fix(code-switch): adjust styling based on Malins new suggestion
+[33m6d55102[m feat: Order courses by date DESC
+[33m2ec0cf9[m chore: Add engine
+[33ma1bcd91[m fix(title): use correct title for landing pages
+[33m613a790[m fix(styling): copy module link color and other small stuff
+[33md75464d[m fix(markup): fix og:title
+[33m93dd5ba[m fix(markup): add viewport for mobile and basic social metatags
+[33m6edacc7[m chore(credentials): change spaceid
+[33mf5a2765[m fix(breadcrumb): proper styling and separator
+[33m1ca4002[m fix(breadcrumb): correct positioning of breadcrumb
+[33m7e49f18[m fix(routes): avoid 404 by duplicating course route
+[33m229b218[m feat(copy-module): respect visualStyle field now
+[33m34fcc50[m fix(links): GH links temporary replaced, fix link to about page in header
+[33m053e489[m fix(modules): highlighted course bg image
+[33md1a5113[m add minimum node engine to package.json
+[33m23b6f24[m hide app buttons for now
+[33md286a7f[m transform about into a landing page and generalize code (#12)
+[33m31ff2d3[m several adjustments based on Malin's feedback
+[33m99b755f[m link headline of course card
+[33mad2da94[m fit course headline into one line
+[33m31391f7[m reenable dotnet code snippets
+[33m205d48c[m give the language switcher some love
+[33m52de0d1[m feat(breadcrumb): Add breadcrumb
+[33m0deaca4[m fix image module to actually show the image
+[33m846ac77[m basic code switcher implementation. Needs love but worx
+[33m3874abd[m chore(Errors): add code highlight
+[33mee388aa[m restyle global layout .. again :D
+[33m30beb93[m css cleanup
+[33m26fa97e[m restyle global layout and course cards
+[33md037ccc[m add help texts to settings and style content links properly
+[33m6482c77[m fix overflow in lessons
+[33m2652d7b[m style header
+[33m64f59e2[m feat(Errors): Add global error handling
+[33m17b5286[m center settings page and fix text colors
+[33md249352[m add version to tracking header
+[33mcf2101b[m add application tracking to X-Contentful-User-Agent
+[33m5e72fd9[m minimal form style adjustments
+[33m6430a2c[m style forms and add form validation and form status block
+[33mf2b2a58[m spelling mistakes
+[33mba1d442[m Fix some spelling errors
+[33m38b431f[m style visited lessons with proper icon instead of emoji
+[33m9d3c675[m several small fixes
+[33mf014c76[m Change category filter to use slug instead of sys.id (#6)
+[33m58d7e87[m Add styles for hover and visited for table of contents
+[33mc7d0860[m remove merge conflict from lesson module image
+[33m0c2c060[m feat(handlers): Add error handling for settings page
+[33me62c3d8[m several small styling adjustments
+[33m67fc0ed[m feat(handlers): Add generic error handler
+[33m01fd3cc[m Fix some spelling errors (#5)
+[33me773c8b[m rename `university` to `the app`. (#4)
+[33m71c0c0e[m course detail styling and basic lesson module styling
+[33m478633c[m style courses listing and fix grid list
+[33m60d2c02[m fix courses list filtering and titles
+[33m28764d2[m only show code elements with content
+[33mbf1e00c[m split up layout and global file and clean up markup
+[33m090e0e3[m reorganise css files
+[33me955555[m style landing page modules and start reorganising css
+[33m3459c4c[m rename landing page modules
+[33m711398f[m make lesson modules more fail proof
+[33m47460f4[m implement new blue header bar
+[33ma3f526e[m add roboto font
+[33m19cf4d1[m replace screenshoted images with real ones plus style footer
+[33m926b59a[m feat(credentials): allow setting of space id and tokens via query string
+[33m9806d49[m fix global styling
+[33md4e9f67[m fix(api/locale): form submits to the same url
+[33m713f554[m fix(mixins): Add locale/api and active link
+[33m07c5cc7[m fix(course): fix non resolved lessons
+[33m928ccc0[m use real BEM almost everywhere. Some restructuring is still missing
+[33m1fb784e[m fix categories in courses, small style fixes, landing page module adjustments
+[33m23a0ac4[m basic styling for lesson modules + code highlighting
+[33m5e23150[m feat(layout): Add titles
+[33mdcf4aa8[m style settings and add global form element styling
+[33m62ecdfe[m feat(lessons): Add lessons modules
+[33m1875c99[m add CTA's
+[33mceca213[m add and style footer, keep footer always on bottom of the viewport
+[33m500b103[m feat(courses): Add view helpers
+[33mc650dd3[m basic styling
+[33m200a8ae[m feat(courses): Add Categories listing
+[33m0c66b66[m feat(courses): Add Landing Page content modules
+[33me2ceb39[m feat(courses): Add lessons
+[33m6c7ab31[m feat(courses): Add course list
+[33m354df3c[m feat(settings): Save settings in cookie
+[33m3373ff2[m refactor: Change views
+[33m3f6efdf[m refactor: www -> es6 syntax
+[33mdc3e862[m refactor: es6 all the things!
+[33md1d580f[m feat: Add views and routes
+[33m02f7c2c[m chore: Initial commit
+[33m7c9d9a0[m Initial commit
