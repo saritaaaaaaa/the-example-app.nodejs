@@ -26,13 +26,4 @@ pipeline {
       }
       }
     }
-    stage('Push') {
-      steps {
-        withCredentials([awsEcr(serverUrl: "147356820214.dkr.ecr.us-east-2.amazonaws.com/node-js", registry: "${node-js}", credentialHelperOverride: "")]) {
-          sh "docker tag ${DOCKER_IMAGE} ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:latest"
-          sh "docker push ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:latest"
-        }
-      }
-    }
-  }
-}
+   }
