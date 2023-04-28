@@ -19,7 +19,7 @@ pipeline {
     stage('Build') {
       steps {
         script{
-        def dockerfile = 'Dockerfile"
+        def dockerfile = 'Dockerfile'
         def dockerImage = docker.build("$DOCKER_REGISTRY/$DOCKER_IMAGE", "-f $dockerfile .")
         }
        
